@@ -21,7 +21,7 @@ SPECDIR = BASEDIR + 'spec'
 LIBDIR  = BASEDIR + 'lib'
 EXTDIR  = BASEDIR + 'ext'
 
-DLEXT   = Config::CONFIG['DLEXT']
+DLEXT   = RbConfig::CONFIG['DLEXT']
 EXT     = LIBDIR + "bluecloth_ext.#{DLEXT}"
 
 MANDIR  = BASEDIR + 'man'
